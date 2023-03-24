@@ -1,0 +1,189 @@
+{
+  "className": "CalculatorJGivenTest",
+  "name": "Calculator J Given",
+  "scenarios": [
+    {
+      "className": "CalculatorJGivenTest",
+      "testMethodName": "testAdditionCalculation",
+      "description": "Test addition calculation",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "a user intialised calculator",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "a user intialised calculator"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 8363625,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "user enters numbers to add",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "user enters numbers to add"
+                },
+                {
+                  "value": "1",
+                  "argumentInfo": {
+                    "argumentName": "a",
+                    "formattedValue": "1"
+                  }
+                },
+                {
+                  "value": "1",
+                  "argumentInfo": {
+                    "argumentName": "b",
+                    "formattedValue": "1"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 4195875,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "calculator result is",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "calculator result is"
+                },
+                {
+                  "value": "2",
+                  "argumentInfo": {
+                    "argumentName": "expectedAnswer",
+                    "formattedValue": "2"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 2515667,
+              "depth": 0,
+              "parentFailed": false
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "durationInNanos": 52321000
+        }
+      ],
+      "durationInNanos": 52321000,
+      "executionStatus": "SUCCESS"
+    },
+    {
+      "className": "CalculatorJGivenTest",
+      "testMethodName": "testSubtractionCalculation",
+      "description": "Test subtraction calculation",
+      "tagIds": [],
+      "explicitParameters": [],
+      "derivedParameters": [],
+      "casesAsTable": false,
+      "scenarioCases": [
+        {
+          "caseNr": 1,
+          "steps": [
+            {
+              "name": "a user intialised calculator",
+              "words": [
+                {
+                  "value": "Given",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "a user intialised calculator"
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 798792,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "user enters numbers to subtract",
+              "words": [
+                {
+                  "value": "When",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "user enters numbers to subtract"
+                },
+                {
+                  "value": "1",
+                  "argumentInfo": {
+                    "argumentName": "a",
+                    "formattedValue": "1"
+                  }
+                },
+                {
+                  "value": "1",
+                  "argumentInfo": {
+                    "argumentName": "b",
+                    "formattedValue": "1"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 1065042,
+              "depth": 0,
+              "parentFailed": false
+            },
+            {
+              "name": "calculator result is",
+              "words": [
+                {
+                  "value": "Then",
+                  "isIntroWord": true
+                },
+                {
+                  "value": "calculator result is"
+                },
+                {
+                  "value": "0",
+                  "argumentInfo": {
+                    "argumentName": "expectedAnswer",
+                    "formattedValue": "0"
+                  }
+                }
+              ],
+              "status": "PASSED",
+              "durationInNanos": 333417,
+              "depth": 0,
+              "parentFailed": false
+            }
+          ],
+          "explicitArguments": [],
+          "derivedArguments": [],
+          "status": "SUCCESS",
+          "durationInNanos": 3814500
+        }
+      ],
+      "durationInNanos": 3814500,
+      "executionStatus": "SUCCESS"
+    }
+  ],
+  "tagMap": {}
+}
